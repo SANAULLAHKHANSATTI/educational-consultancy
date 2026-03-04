@@ -557,7 +557,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Call / WhatsApp</p>
-                  <p className="text-xl font-bold">+92 300 1234567</p>
+                  <p className="text-xl font-bold">+𝟖𝟔𝟏𝟓𝟎𝟎𝟐𝟔𝟔𝟑𝟓𝟖𝟒</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -699,7 +699,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-500 shrink-0" />
-                <span>+92 300 1234567</span>
+                <span>+𝟖𝟔𝟏𝟓𝟎𝟎𝟐𝟔𝟔𝟑𝟓𝟖𝟒</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-500 shrink-0" />
