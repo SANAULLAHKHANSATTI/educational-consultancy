@@ -153,7 +153,7 @@ const Hero = () => {
               Apply Now <ChevronRight className="h-5 w-5" />
             </a>
             <a
-              href="https://wa.me/923001234567"
+              href="https://wa.me/8615002663584"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition-all shadow-xl active:scale-95"
@@ -557,7 +557,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Call / WhatsApp</p>
-                  <p className="text-xl font-bold">+𝟖𝟔𝟏𝟓𝟎𝟎𝟐𝟔𝟔𝟑𝟓𝟖𝟒</p>
+                  <p className="text-xl font-bold">+86 150 0266 3584</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -699,7 +699,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-500 shrink-0" />
-                <span>+𝟖𝟔𝟏𝟓𝟎𝟎𝟐𝟔𝟔𝟑𝟓𝟖𝟒</span>
+                <span>+86 150 0266 3584</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-500 shrink-0" />
@@ -748,7 +748,7 @@ export default function App() {
       
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/𝟖𝟔𝟏𝟓𝟎𝟎𝟐𝟔𝟔𝟑𝟓𝟖𝟒"
+        href="https://wa.me/8615002663584"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all hover:scale-110 active:scale-95 group"
