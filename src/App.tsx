@@ -203,7 +203,7 @@ const About = () => {
   const benefits = [
     {
       title: "Low Tuition Fee",
-      description: "Highly affordable medical education compared to private colleges in Pakistan.",
+      description: "Low tuition fees available for students from Gulf countries, Sudan, Pakistan, and Bangladesh. Affordable education without compromising on quality and global recognition.",
       icon: <DollarSign className="h-6 w-6" />,
     },
     {
@@ -213,7 +213,7 @@ const About = () => {
     },
     {
       title: "Recognized Universities",
-      description: "Degrees recognized by PMC (Pakistan Medical Commission), WHO, and WFME.",
+      description: "Degrees recognized by PMC, ECFMG, WDOMS, GMC, WHO.",
       icon: <Award className="h-6 w-6" />,
     },
     {
