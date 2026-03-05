@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BMS International Consultants - MBBS in China 2026 Admissions
 
 A modern, professional, and conversion-focused educational consultancy website for **BMS International Consultants**, promoting MBBS admissions in China for the 2026 intake.
@@ -8,11 +7,6 @@ To display your professional logo:
 1.  Rename your logo file to `logo.png`.
 2.  Place it in the `/public/` directory of this project.
 3.  The website is already configured to detect and display it automatically.
-=======
-# MBBS in China 2026 Admissions Website
-
-A modern, professional, and conversion-focused educational consultancy website for promoting MBBS admissions in China for the 2026 intake.
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
 
 ## 🚀 Deployment Guide
 

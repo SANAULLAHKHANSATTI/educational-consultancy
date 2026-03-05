@@ -606,7 +606,7 @@ const Contact = () => {
                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
                     placeholder="John Doe"
                   />
-                  
+
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
@@ -621,6 +621,7 @@ const Contact = () => {
 
                 </div>
               </div>
+              {/*
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
                 <input
@@ -632,6 +633,7 @@ const Contact = () => {
                   placeholder="john@example.com"
                 />
               </div>
+*/}
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">Current Qualification</label>
                 <select
@@ -752,11 +754,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-10 border-t border-slate-800 text-center text-slate-500 text-sm">
-<<<<<<< HEAD
           <p>© 2026 BMS International Consultants. All Rights Reserved. Designed for Pakistani Students.</p>
-=======
-          <p>© 2026 China MBBS Admissions. All Rights Reserved. Designed for Pakistani Students.</p>
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
         </div>
       </div>
     </footer>

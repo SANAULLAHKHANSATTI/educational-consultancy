@@ -1,10 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "BMS International Consultants",
   "description": "Professional educational consultancy website for BMS International Consultants, specializing in MBBS admissions in China for the 2026 intake.",
-=======
-  "name": "MBBS China Admissions 2026",
-  "description": "Professional educational consultancy website for Pakistani students seeking MBBS admissions in China for the 2026 intake.",
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
   "requestFramePermissions": []
 }
