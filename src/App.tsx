@@ -290,7 +290,8 @@ const FeaturedUniversity = () => {
               <MapPin className="h-5 w-5 text-blue-600" />
               <span>Shandong Province, China</span>
             </div>
-            
+   
+            {/*
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="p-4 bg-white rounded-xl border border-slate-200">
                 <p className="text-slate-500 text-sm mb-1">Tuition Fee</p>
@@ -301,7 +302,7 @@ const FeaturedUniversity = () => {
                 <p className="text-xl font-bold text-blue-900">4,000 RMB/Year</p>
               </div>
             </div>
-
+*/}
             <div className="space-y-4 mb-10">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
