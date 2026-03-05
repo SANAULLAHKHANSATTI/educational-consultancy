@@ -745,10 +745,12 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-blue-500 shrink-0" />
                 <span>+86 150 0266 3584</span>
               </li>
+              {/*
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-500 shrink-0" />
                 <span>info@chinambbs.pk</span>
               </li>
+*/}
             </ul>
           </div>
           
