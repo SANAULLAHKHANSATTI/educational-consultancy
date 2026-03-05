@@ -505,11 +505,7 @@ const WhyChooseUs = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Why Choose Us</h2>
-<<<<<<< HEAD
             <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">BMS International: Pakistan's Most Trusted MBBS Consultancy</h3>
-=======
-            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Pakistan's Most Trusted MBBS Consultancy</h3>
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {reasons.map((reason, index) => (
                 <div key={index}>
@@ -610,6 +606,7 @@ const Contact = () => {
                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
                     placeholder="John Doe"
                   />
+                  
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
@@ -621,6 +618,7 @@ const Contact = () => {
                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
                     placeholder="+92 300 0000000"
                   />
+
                 </div>
               </div>
               <div>
@@ -656,7 +654,9 @@ const Contact = () => {
                   onChange={(e) => setFormData({...formData, message: e.target.value})}
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
                   placeholder="Tell us about your preferences..."
-                ></textarea>
+                >
+
+                </textarea>
               </div>
               <button
                 type="submit"
@@ -678,7 +678,6 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
-<<<<<<< HEAD
             <div className="flex items-center gap-3 mb-6">
               <img 
                 src="/logo.png" 
@@ -696,16 +695,6 @@ const Footer = () => {
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
               BMS International Consultants: Empowering Pakistani students to achieve their dreams of becoming world-class doctors through affordable and quality education in China.
-=======
-            <div className="flex items-center gap-2 mb-6">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <GraduationCap className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold tracking-tight">China<span className="text-blue-500">MBBS</span></span>
-            </div>
-            <p className="text-slate-400 leading-relaxed mb-6">
-              Empowering Pakistani students to achieve their dreams of becoming world-class doctors through affordable and quality education in China.
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Facebook className="h-5 w-5" /></a>
