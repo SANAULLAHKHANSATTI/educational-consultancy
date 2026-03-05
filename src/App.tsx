@@ -155,7 +155,7 @@ const Hero = () => {
             Study MBBS in China 2026 – <span className="text-blue-400">Affordable & Recognized</span> Medical Universities
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-10 leading-relaxed">
-            Join thousands of Pakistani students pursuing high-quality medical education in China. World-class facilities, English medium, and globally recognized degrees.
+            Join thousands of international students, including Pakistani and Gulf students, pursuing high-quality medical education in China. World-class facilities, English-medium programs, and globally recognized degrees.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -621,7 +621,7 @@ const Contact = () => {
 
                 </div>
               </div>
-              {/*
+              
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
                 <input
@@ -633,7 +633,7 @@ const Contact = () => {
                   placeholder="john@example.com"
                 />
               </div>
-*/}
+
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">Current Qualification</label>
                 <select
