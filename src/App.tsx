@@ -272,7 +272,7 @@ const FeaturedUniversity = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://mbbsinchina.urdusky.com/wp-content/uploads/2016/10/Jining-Medical-University-China.png"
                 alt="Jining Medical University"
                 className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 referrerPolicy="no-referrer"
