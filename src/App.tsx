@@ -47,10 +47,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-<<<<<<< HEAD
             <div className="flex-shrink-0 flex items-center gap-3">
               <img 
-                src="/logo.png" 
+                src="/logo.jpeg" 
                 alt="BMS International Consultants Logo" 
                 className="h-12 w-auto object-contain"
                 onError={(e) => {
@@ -65,13 +64,6 @@ const Navbar = () => {
                 BMS <span className="text-blue-600">International</span>
                 <span className="block text-[10px] uppercase tracking-[0.2em] text-slate-500 font-semibold">Consultants</span>
               </span>
-=======
-            <div className="flex-shrink-0 flex items-center gap-2">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <GraduationCap className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold text-blue-900 tracking-tight">China<span className="text-blue-600">MBBS</span></span>
->>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-8">
