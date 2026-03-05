@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "bms-international-consultants",
+=======
+  "name": "china-mbbs-admissions-2026",
+>>>>>>> f30b2100c1d4f8e34a2b001329bc7be91768da97
   "private": true,
   "version": "0.0.0",
   "type": "module",
