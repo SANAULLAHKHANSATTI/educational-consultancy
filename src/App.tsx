@@ -242,7 +242,7 @@ const About = () => {
           <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">About MBBS in China</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Your Gateway to a Global Medical Career</h3>
           <p className="text-slate-600 text-lg">
-            China has become the top destination for Pakistani medical aspirants. With state-of-the-art infrastructure and globally ranked universities, it offers a world-class education at a fraction of the cost.
+            China has become the top destination for International Medical Aspirants. With state-of-the-art infrastructure and globally ranked universities, it offers a world-class education at a fraction of the cost.
           </p>
         </div>
 
@@ -338,7 +338,7 @@ const Eligibility = () => {
     },
     {
       title: "MDCAT Status",
-      detail: "MDCAT is required as per the latest PMC/National Medical Authority guidelines.",
+      detail: "MDCAT is NOT required for admission to medical universities in China.",
       icon: <FileText className="h-8 w-8 text-blue-600" />,
     },
     {
@@ -378,6 +378,7 @@ const Eligibility = () => {
   );
 };
 
+/*
 const FeeStructure = () => {
   const fees = [
     { item: "Tuition Fee", cost: "$2,800 - $4,500", note: "Per Year" },
@@ -424,6 +425,7 @@ const FeeStructure = () => {
     </section>
   );
 };
+*/
 
 const AdmissionProcess = () => {
   const steps = [
@@ -500,7 +502,7 @@ const WhyChooseUs = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Why Choose Us</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">BMS International: Pakistan's Most Trusted MBBS Consultancy</h3>
+            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">MOST Trusted MBBS Consultancy for Pakistan & GulfBased International Students</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {reasons.map((reason, index) => (
                 <div key={index}>
@@ -567,6 +569,7 @@ const Contact = () => {
                   <p className="text-xl font-bold">+86 150 0266 3584</p>
                 </div>
               </div>
+              {/*
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
                   <Mail className="h-6 w-6" />
@@ -576,6 +579,7 @@ const Contact = () => {
                   <p className="text-xl font-bold">info@chinambbs.pk</p>
                 </div>
               </div>
+                */}
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
                   <MapPin className="h-6 w-6" />
