@@ -1,4 +1,4 @@
-const universities = [
+export const universitys = [
   {
     name: "Jining Medical University",
     location: "Shandong Province, China",
