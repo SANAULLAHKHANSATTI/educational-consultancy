@@ -29,7 +29,7 @@ import {
   Linkedin
 } from 'lucide-react';
 import { motion } from 'motion/react';
-import { universities } from './data/universities';
+import { university } from './data/universities';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -271,7 +271,7 @@ const FeaturedUniversity = () => {
     <section id="universities" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {universities.map((uni, index) => (
+        {university.map((uni, index) => (
           <div key={index} className="flex flex-col lg:flex-row items-center gap-12 mb-20">
 
             {/* Image */}
