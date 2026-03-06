@@ -559,51 +559,48 @@ const Contact = () => {
               Fill out the form and our expert educational consultants will guide you through the best options for your medical career in China.
             </p>
             
-            <div className="space-y-8">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-                  <Phone className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-blue-200 text-sm">Call / WhatsApp</p>
-                  <p className="text-lg font-bold">+86 150 0266 3584</p>
-                </div>
-              </div>
-              {/*
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-                  <Mail className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-blue-200 text-sm">Email Us</p>
-                  <p className="text-lg font-bold">info@chinambbs.pk</p>
-                </div>
-              </div>
-                */}
+           <div className="space-y-8">
 
-    <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-                  <MapPin className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-blue-200 text-sm">Head Office</p>
-                  <p className="text-lg font-bold">392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</p>
-                </div>
-              </div>
+  {/* Phone */}
+  <div className="flex items-start gap-4">
+    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+      <Phone className="h-6 w-6" />
+    </div>
+    <div>
+      <p className="text-blue-200 text-sm">Call / WhatsApp</p>
+      <p className="text-base font-semibold break-words">
+        +86 150 0266 3584
+      </p>
+    </div>
+  </div>
 
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-                  <MapPin className="h-6 w-6" />
-                </div>
-                <div>
-                  <p className="text-blue-200 text-sm">Visit Office</p>
-                  <p className="text-lg font-bold">Office #12, Blue Area, Islamabad, Pakistan</p>
-                </div>
-              </div>
+  {/* Head Office */}
+  <div className="flex items-start gap-4">
+    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+      <MapPin className="h-6 w-6" />
+    </div>
+    <div>
+      <p className="text-blue-200 text-sm">Head Office</p>
+      <p className="text-base font-semibold break-words">
+        392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China, Postal Code 730000
+      </p>
+    </div>
+  </div>
 
-             
+  {/* Visit Office */}
+  <div className="flex items-start gap-4">
+    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+      <MapPin className="h-6 w-6" />
+    </div>
+    <div>
+      <p className="text-blue-200 text-sm">Visit Office</p>
+      <p className="text-base font-semibold break-words">
+        Office #12, Blue Area, Islamabad, Pakistan
+      </p>
+    </div>
+  </div>
 
-            </div>
+</div>
           </div>
           
         
