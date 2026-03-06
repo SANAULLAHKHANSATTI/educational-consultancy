@@ -29,6 +29,7 @@ import {
   Linkedin
 } from 'lucide-react';
 import { motion } from 'motion/react';
+import { universities } from './data';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +42,7 @@ const Navbar = () => {
     { name: 'Process', href: '#process' },
     { name: 'Contact', href: '#contact' },
   ];
+
 
   return (
     <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-blue-100 shadow-sm">
@@ -268,68 +270,60 @@ const FeaturedUniversity = () => {
   return (
     <section id="universities" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2">
-            <div className="relative">
-              <img
-                src="https://mbbsinchina.urdusky.com/wp-content/uploads/2016/10/Jining-Medical-University-China.png"
-                alt="Jining Medical University"
-                className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-8 rounded-2xl shadow-xl hidden md:block">
-                <p className="text-3xl font-bold">6 Years</p>
-                <p className="text-blue-100">Total Duration</p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-1/2">
-            <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Featured University</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Jining Medical University</h3>
-            <div className="flex items-center gap-2 text-slate-500 mb-6">
-              <MapPin className="h-5 w-5 text-blue-600" />
-              <span>Shandong Province, China</span>
-            </div>
-   
-            {/*
-            <div className="grid grid-cols-2 gap-6 mb-8">
-              <div className="p-4 bg-white rounded-xl border border-slate-200">
-                <p className="text-slate-500 text-sm mb-1">Tuition Fee</p>
-                <p className="text-xl font-bold text-blue-900">18,000 RMB/Year</p>
-              </div>
-              <div className="p-4 bg-white rounded-xl border border-slate-200">
-                <p className="text-slate-500 text-sm mb-1">Hostel Fee</p>
-                <p className="text-xl font-bold text-blue-900">4,000 RMB/Year</p>
-              </div>
-            </div>
-*/}
-            <div className="space-y-4 mb-10">
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                <p className="text-slate-700 font-medium">Recognized by PMC (A-Category), WHO, and USMLE.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                <p className="text-slate-700 font-medium">Direct Admission in English Medium Program.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                <p className="text-slate-700 font-medium">Advanced Labs and Research Centers.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                <p className="text-slate-700 font-medium">Halal Food and Prayer Facilities available on campus.</p>
+
+        {universities.map((uni, index) => (
+          <div key={index} className="flex flex-col lg:flex-row items-center gap-12 mb-20">
+
+            {/* Image */}
+            <div className="lg:w-1/2">
+              <div className="relative">
+                <img
+                  src={uni.image}
+                  alt={uni.name}
+                  className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+                />
+                <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-8 rounded-2xl shadow-xl hidden md:block">
+                  <p className="text-3xl font-bold">{uni.duration}</p>
+                  <p className="text-blue-100">Total Duration</p>
+                </div>
               </div>
             </div>
 
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg active:scale-95"
-            >
-              Apply to Jining Medical University <ChevronRight className="h-5 w-5" />
-            </a>
+            {/* Content */}
+            <div className="lg:w-1/2">
+              <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">
+                Featured University
+              </h2>
+
+              <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                {uni.name}
+              </h3>
+
+              <div className="flex items-center gap-2 text-slate-500 mb-6">
+                <MapPin className="h-5 w-5 text-blue-600" />
+                <span>{uni.location}</span>
+              </div>
+
+              <div className="space-y-4 mb-10">
+                {uni.features.map((feature, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                    <p className="text-slate-700 font-medium">{feature}</p>
+                  </div>
+                ))}
+              </div>
+
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg active:scale-95"
+              >
+                Apply to {uni.name} <ChevronRight className="h-5 w-5" />
+              </a>
+            </div>
+
           </div>
-        </div>
+        ))}
+
       </div>
     </section>
   );
