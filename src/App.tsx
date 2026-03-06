@@ -692,7 +692,9 @@ const Footer = () => {
               <div className="hidden bg-blue-600 p-2 rounded-lg">
                 <GraduationCap className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold tracking-tight">BMS <span className="text-blue-500">International</span></span>
+              <span className="text-2xl font-bold tracking-tight">BMS <span className="text-blue-500">International</span>
+              <span className="block text-[10px] uppercase tracking-[0.2em] text-slate-500 font-semibold">Consultants</span>
+              </span>
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
               BMS International Consultants: Empowering Pakistani students to achieve their dreams of becoming world-class doctors through affordable and quality education in China.
@@ -769,6 +771,10 @@ export default function App() {
       <FeaturedUniversity />
       <Eligibility />
 
+     {/* 
+     <FeeStructure /> 
+     */}
+      
       <AdmissionProcess />
       <WhyChooseUs />
       <Contact />
