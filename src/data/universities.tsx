@@ -14,7 +14,7 @@ export const universitys = [
   },
   {
     name: "Xuzhou Medical University (XZMU)",
-    location: "Shenyang, China",
+    location: "Jaingsu, China",
     image: "/universities/xuzhou.jpeg",
     duration: "6 Years",
     features: [
