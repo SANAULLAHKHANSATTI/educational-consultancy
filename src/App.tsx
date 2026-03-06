@@ -566,7 +566,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Call / WhatsApp</p>
-                  <p className="text-xl font-bold">+86 150 0266 3584</p>
+                  <p className="text-lg font-bold">+86 150 0266 3584</p>
                 </div>
               </div>
               {/*
@@ -576,7 +576,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Email Us</p>
-                  <p className="text-xl font-bold">info@chinambbs.pk</p>
+                  <p className="text-lg font-bold">info@chinambbs.pk</p>
                 </div>
               </div>
                 */}
@@ -587,7 +587,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Head Office</p>
-                  <p className="text-xl font-bold">392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</p>
+                  <p className="text-lg font-bold">392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</p>
                 </div>
               </div>
 
@@ -597,7 +597,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-blue-200 text-sm">Visit Office</p>
-                  <p className="text-xl font-bold">Office #12, Blue Area, Islamabad, Pakistan</p>
+                  <p className="text-lg font-bold">Office #12, Blue Area, Islamabad, Pakistan</p>
                 </div>
               </div>
 
