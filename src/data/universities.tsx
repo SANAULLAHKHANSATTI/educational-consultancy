@@ -2,7 +2,7 @@ export const universitys = [
   {
     name: "Jining Medical University",
     location: "Shandong Province, China",
-    image: "/universities/jining.jpg",
+    image: "/universities/jining.jpeg",
     duration: "6 Years",
     features: [
       "Overseas students since 2005 | 40+ nationalities",
@@ -15,7 +15,7 @@ export const universitys = [
   {
     name: "Xuzhou Medical University (XZMU)",
     location: "Shenyang, China",
-    image: "/universities/xuzhou.jpg",
+    image: "/universities/xuzhou.jpeg",
     duration: "6 Years",
     features: [
       "ESI Top 1% Globally | High-Impact Research University",
