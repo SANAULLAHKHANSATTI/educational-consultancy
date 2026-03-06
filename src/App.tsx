@@ -582,7 +582,7 @@ const Contact = () => {
     <div>
       <p className="text-blue-200 text-sm">Head Office</p>
       <p className="text-base font-semibold break-words">
-        392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China, Postal Code 730000
+        392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China 730000
       </p>
     </div>
   </div>
@@ -715,9 +715,11 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a href="https://www.facebook.com/MBBSAdmissionsinChina" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Facebook className="h-5 w-5" /></a>
+            {/*  
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Twitter className="h-5 w-5" /></a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Instagram className="h-5 w-5" /></a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Linkedin className="h-5 w-5" /></a>
+            */}
             </div>
           </div>
       
@@ -739,7 +741,7 @@ const Footer = () => {
 
                  <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-blue-500 shrink-0" />
-                <span>392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</span>
+                <span>392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China 730000</span>
               </li> 
 
               <li className="flex items-start gap-3">
@@ -778,7 +780,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-10 border-t border-slate-800 text-center text-slate-500 text-sm">
-          <p>© 2026 BMS International Consultants. All Rights Reserved. Designed for Pakistani Students.</p>
+          <p>© 2026 BMS International Consultants. All Rights Reserved. Designed for International Students.</p>
         </div>
       </div>
     </footer>
