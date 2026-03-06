@@ -497,12 +497,13 @@ const WhyChooseUs = () => {
   ];
 
   return (
+    
     <section className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Why Choose Us</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">MOST Trusted MBBS Consultancy for Pakistan & GulfBased International Students</h3>
+            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Most Trusted MBBS Consultancy for Pakistan & Gulf-Based International Students</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {reasons.map((reason, index) => (
                 <div key={index}>
