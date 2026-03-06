@@ -768,7 +768,7 @@ export default function App() {
       <About />
       <FeaturedUniversity />
       <Eligibility />
-      <FeeStructure />
+
       <AdmissionProcess />
       <WhyChooseUs />
       <Contact />
