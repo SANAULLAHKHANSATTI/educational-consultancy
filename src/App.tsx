@@ -580,6 +580,17 @@ const Contact = () => {
                 </div>
               </div>
                 */}
+
+    <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
+                  <MapPin className="h-6 w-6" />
+                </div>
+                <div>
+                  <p className="text-blue-200 text-sm">Head Office</p>
+                  <p className="text-xl font-bold">392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</p>
+                </div>
+              </div>
+
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
                   <MapPin className="h-6 w-6" />
@@ -589,14 +600,19 @@ const Contact = () => {
                   <p className="text-xl font-bold">Office #12, Blue Area, Islamabad, Pakistan</p>
                 </div>
               </div>
+
+             
+
             </div>
           </div>
           
+        
           <div className="lg:w-1/2 bg-white p-12 lg:p-20">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">Full Name</label>
+
                   <input
                     type="text"
                     required
@@ -680,6 +696,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
             <div className="flex items-center gap-3 mb-6">
+
               <img 
                 src="/logo.png" 
                 alt="BMS International Consultants Logo" 
@@ -697,15 +714,16 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
-              BMS International Consultants: Empowering Pakistani students to achieve their dreams of becoming world-class doctors through affordable and quality education in China.
+              BMS International Consultants: Empowering international students to achieve their dreams of becoming world-class doctors through affordable and quality education in China.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Facebook className="h-5 w-5" /></a>
+              <a href="https://www.facebook.com/MBBSAdmissionsinChina" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Facebook className="h-5 w-5" /></a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Twitter className="h-5 w-5" /></a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Instagram className="h-5 w-5" /></a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"><Linkedin className="h-5 w-5" /></a>
             </div>
           </div>
+      
           
           <div>
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
@@ -721,10 +739,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-6">Contact Info</h4>
             <ul className="space-y-4 text-slate-400">
+
+                 <li className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-blue-500 shrink-0" />
+                <span>392 Donggang West Road, Chengguan District, Lanzhou City, Gansu Province, China Postal code 730000</span>
+              </li> 
+
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-blue-500 shrink-0" />
                 <span>Office #12, Blue Area, Islamabad, Pakistan</span>
               </li>
+              
+  
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-500 shrink-0" />
                 <span>+86 150 0266 3584</span>
