@@ -2,37 +2,28 @@ export const universitys = [
   {
     name: "Jining Medical University",
     location: "Shandong Province, China",
-    image: "https://mbbsinchina.urdusky.com/wp-content/uploads/2016/10/Jining-Medical-University-China.png",
+    image: "/universities/jining.jpg",
     duration: "6 Years",
     features: [
-      "Recognized by PMC (A-Category), WHO, and USMLE.",
-      "Direct Admission in English Medium Program.",
-      "Advanced Labs and Research Centers.",
-      "Halal Food and Prayer Facilities available on campus."
+      "Overseas students since 2005 | 40+ nationalities",
+      "Listed in WDOMS | Recognized by ECFMG",
+      "Graduates eligible | USMLE, NLE, PLAB, SMLE, DHA, HAAD, MOH",
+      "Strong clinical exposure | Affiliated teaching hospitals",
+      "Halal food available | Masjid on campus"
     ]
   },
   {
-    name: "China Medical University",
+    name: "Xuzhou Medical University (XZMU)",
     location: "Shenyang, China",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/59/China_Medical_University.jpg",
+    image: "/universities/xuzhou.jpg",
     duration: "6 Years",
     features: [
-      "PMC & WHO recognized university.",
-      "English medium MBBS program.",
-      "Top ranked medical university in China.",
-      "International student support."
-    ]
-  },
-  {
-    name: "Dalian Medical University",
-    location: "Dalian, China",
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Dalian_Medical_University.jpg",
-    duration: "6 Years",
-    features: [
-      "PMC approved university.",
-      "Modern laboratories and research centers.",
-      "Affordable tuition fees.",
-      "International student community."
+      "ESI Top 1% Globally | High-Impact Research University",
+      "36 Affiliated Hospitals | Advanced Clinical Training",
+      "Globally Recognized | USA, UK, Pakistan, KSA, UAE, Qatar, Oman, Bangladesh",
+      "Listed in WDOMS | Recognized by ECFMG",
+      "Very Reasonable Fees | Significantly Lower Than EU Programs"
     ]
   }
+
 ];
