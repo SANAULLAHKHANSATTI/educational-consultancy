@@ -29,7 +29,7 @@ import {
   Linkedin
 } from 'lucide-react';
 import { motion } from 'motion/react';
-import { universities } from './data';
+import { universities } from './data/universities';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
