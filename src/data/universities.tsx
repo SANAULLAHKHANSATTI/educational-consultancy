@@ -40,9 +40,9 @@ export const universitys = [
   ]
   },
     {
-    name: "Yangtze Medical University",
+    name: "Yangtze University",
     location: "Hubei, China",
-    image: "/universities/yangtze.jpeg",
+    image: "/universities/yangtze.png",
     duration: "6 Years",
     features: [
     "Lowest-Cost MBBS Program with High Value Education",
