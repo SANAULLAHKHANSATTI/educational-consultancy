@@ -41,11 +41,11 @@ export const universitys = [
   },
     {
     name: "Yangtze Medical University",
-    location: "Jiangsu Province, China",
+    location: "Hubei, China",
     image: "/universities/yangtze.jpeg",
     duration: "6 Years",
     features: [
-    "Cost-Effective MBBS Program with High Value Education",
+    "Lowest-Cost MBBS Program with High Value Education",
     "Extensive Network of Affiliated Hospitals for Clinical Training",
     "International Student Support with Comfortable Living Facilities",
     "Availability of Halal Food & Nearby South Asian Dining Options",
