@@ -31,12 +31,13 @@ export const universitys = [
     image: "/universities/changsha.jpeg",
     duration: "6 Years",
     features: [
-      "ESI Top 1% Globally | High-Impact Research University",
-      "36 Affiliated Hospitals | Advanced Clinical Training",
-      "Globally Recognized | USA, UK, Pakistan, KSA, UAE, Qatar, Oman, Bangladesh",
-      "Listed in WDOMS | Recognized by ECFMG",
-      "Very Reasonable Fees | Significantly Lower Than EU Programs"
-    ]
+    "Established Medical University with Strong Academic Foundation",
+    "Affiliated Teaching Hospitals for Comprehensive Clinical Practice",
+    "Recognized by WDOMS & Eligible for ECFMG Certification",
+    "International Student-Friendly Environment with English-Medium MBBS",
+    "Affordable Tuition Fees with Cost-Effective Living",
+    "Focus on Practical Skills and Modern Medical Training"
+  ]
   },
     {
     name: "Yangtze Medical University",
@@ -44,12 +45,13 @@ export const universitys = [
     image: "/universities/yangtze.jpeg",
     duration: "6 Years",
     features: [
-      "ONE OF THE LOWEST-COST MBBS PROGRAMS IN CHINA",
-      "36 Affiliated Hospitals | Advanced Clinical Training",
-      "Halal food | 4+ Pakistani restaurants nearby | 1100+ international students | Enrolling since 2003 – multiple batches graduated",
-      "Listed in WDOMS & WHO | Recognized by ECFMG",
-      "Very Reasonable Fees | Significantly Lower Than EU Programs"
-    ]
+    "Cost-Effective MBBS Program with High Value Education",
+    "Extensive Network of Affiliated Hospitals for Clinical Training",
+    "International Student Support with Comfortable Living Facilities",
+    "Availability of Halal Food & Nearby South Asian Dining Options",
+    "Listed in WDOMS & Eligible for ECFMG Certification",
+    "English-Medium MBBS Program with Experienced Faculty"
+  ]
   }
 
 ];
