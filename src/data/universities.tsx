@@ -56,7 +56,7 @@ export const universitys = [
     {
     name: "North Sichuan Medical University",
     location: "Nanchong city, Sichuan, China.",
-    image: "/universities/North-Sichuan-Medical.jpeg",
+    image: "/universities/North-Sichuan-Medical.png",
     duration: "5 Years",
     features: [
     "High-Demand MBBS Program – Limited Seats Available",
