@@ -52,6 +52,20 @@ export const universitys = [
     "Listed in WDOMS & Eligible for ECFMG Certification",
     "English-Medium MBBS Program with Experienced Faculty"
   ]
+  },
+    {
+    name: "North Sichuan Medical College",
+    location: "Nanchong city, Sichuan, China.",
+    image: "/universities/North-Sichuan-Medical.jpeg",
+    duration: "5 Years",
+    features: [
+    "High-Demand MBBS Program – Limited Seats Available",
+    "5-Year Program | Saves Time & Cost with Scholarships",
+    "WDOMS & WHO Listed University with Global Recognition",
+    "Aligned with USMLE, PLAB, PMC & AMC standards",
+    "Up to 20,000 RMB/year scholarship (from 2nd year onwards)",
+    "4 Years Medical Studies + 1 Year Clinical Internship"
+  ]
   }
 
 ];
